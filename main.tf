@@ -1,5 +1,5 @@
 resource "random_pet" "this" {
-  count = 10
+  count = var.pet_count
 }
 
 output "pets" {
